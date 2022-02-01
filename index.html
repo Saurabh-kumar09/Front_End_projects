@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head section includes, All meta tags amd external links(Css file and Js file) -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume Page</title>
+
+    <!-- shorcut icon (It will shown in browser top bar with my website name.)-->
+    <link rel="shortcut icon" href="imgs/favicon_1-32x32.png" />
+
+
+</head>
+
+<!-- body section includes, content of our website. -->
+
+<body>
+    <!--Here, I'm building my resume website by using only heading, paragraph, list, anchor, link, image and table tags. -->
+    <h1>My Resume Page</h1>
+
+    <!-- Firstly I will put down my name and contact details -->
+    <ul>
+        <h3>Name - SAURABH KUMAR</h3>
+        <h3>Contact No. - 9821654985</h3>
+        <h3>Email Id - saurabh09.ind@gmail.com</h3>
+    </ul>
+
+    <!-- My image -->
+    <h1>My image</h1>
+    <img src="imgs/Saurabh img.jpeg" id="pic" alt="Error displaying image" width="200" Height="200">
+
+    <!-- My career objective -->
+    <h1> Career Objective</h1>
+    <p>To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</p>
+
+    <!-- My Academic Qualification -->
+    <h1> Academic Qualification</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Board</th>
+                <th>school/college</th>
+                <th>Percentage</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Matriculation</td>
+                <td>CBSE</td>
+                <td>RPS SCHOOL</td>
+                <td>93</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>ISC</td>
+                <td>CBSE</td>
+                <td>SAM secondary school</td>
+                <td>80</td>
+                <td>2017-2019</td>
+            </tr>
+            <tr>
+                <td>Btech</td>
+                <td>AICTE</td>
+                <td>Bharati Vidyapeeth deemed university, college of engineering, pune</td>
+                <td>Na(Currently Studying)</td>
+                <td>2020-2024</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Skill and Experiences -->
+    <h1>Skill and experiences</h1>
+    <ul type="disk">
+        <li>Basic Front End Development</li>
+        <li>Content Writing</li>
+        <li>Python</li>
+    </ul>
+
+    <!-- Area of Strength -->
+    <h1>Area of Strength</h1>
+    <ul type="disk">
+        <li>Good communication and presentation skills</li>
+        <li>Leadership and teamwork</li>
+        <li>Technical and Cricket Writing</li>
+    </ul>
+
+    <!-- Roles and Responsibilities -->
+    <h1>Roles and Responsibilities</h1>
+    <ul type="disk">
+        <li>Content Writer at<a href="http://currented.tech">CurrentEd</a></li>
+    </ul>
+
+    <!-- Extra skills -->
+    <h1>Extra skills</h1>
+    <ul>
+        <li>Acting(Part of a Dramatic society of my college)</li>
+        <li>Mangement</li>
+    </ul>
+
+    <!-- Language known -->
+    <h1>Language known</h1>
+    <ul>
+        <li>Hindi</li>
+        <li>English</li>
+    </ul>
+
+    <!-- connect with me -->
+    <h1>Connect with Me</h1>
+    <img src="imgs/favicon_3-32x32.png" alt="Error showing image">
+    <a href="https://www.linkedin.com/in/saurabh-kumar-1531491b6" target="blank">linkedin</a>
+
+    <img src="imgs/favicon_2-32x32.png" alt="Error showing image">
+    <a href="https://www.instagram.com/sau_rabh_kr09?r=nametag" target="blank">instagram</a>
+
+    <!-- Contact with me -->
+    <h1>Contact with Me</h1>
+
+    <form action="backend.php"></form>
+
+    <label for="Name">Name</label>
+    <div>
+        <input type="text" id="Name">
+    </div>
+
+    <label for="Mobile No.">Mobile No.</label>
+    <div>
+        <input type="number" id="Mobile No.">
+    </div>
+
+    <label for="Email"> Your Email</label>
+    <div>
+        <input type="email" id="Email">
+    </div>
+
+    <div>
+        Your Gender: Male <input type="radio" name="Your Gender"> Female <input type="radio" name="Your Gender">
+    </div>
+
+    <div>
+        Have You studied HTML?:Yes <input type="checkbox" name="check">
+    </div>
+
+    <div>
+        Write about yourself: <textarea id="write" name="mytext" cols="10" rows="5"></textarea>
+    </div>
+
+    <label for="Age"> Your Age</label>
+    <div>
+        <select name="Your Age" id="Age">
+            <option value="Above 22">Above 22</option>
+            <option value="below 22">Below 22</option>
+        </select>
+    </div>
+
+    <div>
+        Your DOB: <input type="date" name="Your DOB">
+    </div>
+
+    <p><strong>Disclaimer:</strong>This web page is my first project named as <em>My Resume Page</em> I've just built it to test my <b>HTML</b> concepts.
+        <h4>"Making Project is a great way to refresh your concepts".</h4>
+    </p>
+
+
+</body>
+
+</html>
