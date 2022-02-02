@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Menu</title>
+    <style>
+        .navbar {
+            background-color: rgb(230, 121, 157);
+            border-radius: 15px;
+        }
+        
+        .navbar ul {
+            overflow: auto;
+        }
+        
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 15px 15px;
+        }
+        
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(17, 49, 231);
+        }
+        
+        .search {
+            float: right;
+            color: linen;
+            padding: 12px 75px;
+        }
+        
+        .navbar input {
+            border: 2px solid goldenrod;
+            border-radius: 4px;
+            padding: 3px 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><img src="imgs/favicon_1-32x32.png"></li>
+                <li>
+                    <a Home href="#">Home</a>
+                </li>
+                <li><a href="http://127.0.0.1:5500/My%20Resume%20Page/index.html" target="blank">About Me</a></li>
+                <li><a href="#">My Blog</a></li>
+                <li><a href="#">contact me</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search"> Search here
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>
