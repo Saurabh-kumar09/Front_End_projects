@@ -1,0 +1,14 @@
+.thanks {
+    border: 2px solid green;
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 25%;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.body {
+    background-color: bisque;
+}
