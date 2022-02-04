@@ -1,0 +1,75 @@
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('imgs/pexels-anil-sharma-10580198.jpg');
+        background-size: 1600px 1100px;
+        background-repeat: no-repeat;
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    
+    .header {
+        background-color: rgb(84, 56, 134);
+        padding-top: 5px;
+        height: 90px;
+    }
+    
+    .left {
+        display: inline-block;
+        width: 10%;
+        position: absolute;
+        left: 50px;
+        top: 80px;
+    }
+    
+    .left img {
+        padding-left: 50px;
+    }
+    
+    .left div {
+        text-align: center;
+        color: red;
+        font-size: 25px;
+    }
+    
+    .center {
+        display: block;
+        width: 40%;
+        margin: 30px auto;
+    }
+    
+    .navbar li {
+        display: inline-block;
+    }
+    
+    .navbar li a {
+        padding: 34px 23px;
+        text-decoration: none;
+        color: rgb(172, 137, 140);
+        font-size: 20px;
+    }
+    
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: cornsilk;
+    }
+    
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 90px;
+        display: inline-block;
+        width: 10%;
+    }
+    
+    .container {
+        background-color: black;
+        padding-left: 320px;
+        padding-right: 320px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        height: 30px;
+        border-bottom: 4px solid brown
+    }
