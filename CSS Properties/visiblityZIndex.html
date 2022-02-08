@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and Z index</title>
+    <style>
+        .box {
+            width: 170px;
+            height: 170px;
+            border: 2px solid black;
+        }
+        
+        #box1 {
+            position: relative;
+            top: 49px;
+            z-index: 35;
+            background-color: aquamarine;
+            /* visibility: hidden;*/
+            /* Visiblity: visible | hidden | collapse | inherit | initial */
+            /* If visibility applied as hidden,
+            then it reserves the place for it. */
+        }
+        
+        #box2 {
+            position: relative;
+            background-color: aqua;
+            top: 14px;
+            /*z-Index will work only for position: relative, absolute, fixed or sticky*/
+            z-index: 20;
+        }
+        
+        #box3 {
+            background-color: blue;
+        }
+        
+        #box4 {
+            background-color: rgb(75, 75, 177);
+            /*display: none;*/
+            /* Unlike Visiblity, Z doesn't reserve the place. */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- saurabh -->
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+
+</body>
+
+</html>
