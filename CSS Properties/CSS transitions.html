@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transitions</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        h3 {
+            color: aliceblue;
+        }
+        
+        #box {
+            display: flex;
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            justify-content: center;
+            align-items: center;
+            /*transition-property: background-color;
+            transition-duration: 1s;
+            transition-delay: 2s;
+            transition-timing-function: ease-in-out;*/
+            transition: all 1s ease-in-out 0.2s;
+        }
+        
+        #box:hover {
+            background-color: rgb(214, 216, 77);
+            width: 300px;
+            height: 300px;
+            border-radius: 30px;
+            font-size: 26px;
+        }
+        
+        #box li {
+            list-style: none;
+        }
+        
+        #box li a {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>This is CSS Transition tutorial.</h3>
+    <div class="container">
+        <div id="box">
+            <ul>
+                <li>If you love my content, then please subscribe to my channel.</li>
+                <li><a href="www.google.com" target="blank">Mera channel</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
