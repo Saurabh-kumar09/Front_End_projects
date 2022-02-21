@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rows and gaps</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-rows: 1fr 5fr 1fr;
+            grid-auto-rows: 2px solid black;
+            grid-template-columns: repeat(5, 2fr);
+            grid-gap: 2rem;
+        }
+        
+        .box {
+            background-color: antiquewhite;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="box">This is box-1</div>
+        <div class="box">This is box-2</div>
+        <div class="box">This is box-3</div>
+        <div class="box">This is box-4</div>
+        <div class="box">This is box-5</div>
+        <div class="box">This is box-6</div>
+        <div class="box">This is box-7</div>
+        <div class="box">This is box-8</div>
+        <div class="box">This is box-9</div>
+        <div class="box">This is box-10</div>
+        <div class="box">This is box-11</div>
+        <div class="box">This is box-12</div>
+        <div class="box">This is box-13</div>
+        <div class="box">This is box-14</div>
+        <div class="box">This is box-15</div>
+        <div class="box">This is box-16</div>
+    </div>
+
+</body>
+
+</html>
