@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediaQueries with Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: "navbar navbar navbar navbar" "section section section aside" "footer footer footer footer";
+        }
+        
+        @media only screen and (max-width: 300px) {
+            body {
+                background-color: rgb(111, 0, 255);
+            }
+        }
+        
+        @media only screen and (min-width: 300px) and (max-width: 500px) {
+            body {
+                background-color: blanchedalmond;
+            }
+            span {
+                display: block;
+                text-align: center;
+            }
+        }
+        
+        @media (min-width: 500px) and (max-width: 800px) {
+            body {
+                background-color: rgb(17, 171, 182);
+            }
+            .container {
+                grid-template-areas: "navbar navbar navbar navbar" "section section section section" "aside aside aside aside" "footer footer footer footer";
+            }
+            span {
+                display: block;
+                text-align: center;
+            }
+        }
+        
+        @media (min-width: 800px) {
+            body {
+                background-color: green;
+            }
+        }
+        
+        .bdr {
+            border: 2px solid burlywood;
+            padding: 10px 23px;
+            background-color: rgb(132, 184, 166);
+        }
+        
+        nav {
+            grid-area: navbar;
+        }
+        
+        section {
+            grid-area: section;
+        }
+        
+        aside {
+            grid-area: aside;
+        }
+        
+        footer {
+            grid-area: footer;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="bdr">
+            <span>Home</span>
+            <span>About </span>
+            <span>Watch</span>
+            <span>Contact</span>
+        </nav>
+        <section class="bdr">
+            <h2>Lets Learn here.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis obcaecati cupiditate facilis distinctio et, blanditiis reiciendis pariatur, cum dicta, ullam quidem eius. Veritatis, officia voluptatibus corrupti minima totam iusto dolores
+                praesentium veniam eaque sequi consequuntur vero asperiores nisi blanditiis repudiandae ex provident natus minus aliquam nam sint doloremque! Cumque nesciunt praesentium, est suscipit minima deserunt cum reprehenderit autem amet sequi
+                optio magnam, accusamus architecto id doloremque voluptate enim a non. Explicabo laboriosam iusto sunt natus similique tempore vero deserunt quod excepturi quos quae praesentium laudantium nemo expedita vel culpa, dicta odio quo? Eaque
+                blanditiis id, dolores veniam placeat, quos qui vero voluptatem ea incidunt, reprehenderit modi expedita magnam quod cupiditate impedit odit tempora at maiores exercitationem nobis voluptates molestias. Consequatur quas ab non officiis
+                accusamus culpa rem numquam, sint sunt doloribus expedita? Debitis.</p>
+        </section>
+        <aside class="bdr">
+            <h1>More about us</h1>
+        </aside>
+    </div>
+    <footer class="bdr">Copyright code with saurabh 2022</footer>
+</body>
+
+</html>
