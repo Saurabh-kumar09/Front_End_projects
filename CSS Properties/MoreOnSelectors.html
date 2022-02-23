@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More On Selectors</title>
+    <style>
+        h1 {
+            background-color: aquamarine;
+            border: 2px solid burlywood;
+            font-weight: bold;
+            text-align: center;
+        }
+        /*If p is right inside dic then css will be applied*/
+        
+        div>p {
+            color: yellowgreen;
+            background-color: azure;
+            border: 2px solid darkgray;
+        }
+        /* if p is right after dic i.e p is the next sibling of div */
+        
+        div+p {
+            color: rgb(75, 75, 230);
+            background-color: aqua;
+            border: 2px solid gold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This tutorial is more about selectors.</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>This is one more para.</p>
+                </li>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph.</p>
+    </div>
+    <p>This is outermost paragraph.</p>
+</body>
+
+</html>

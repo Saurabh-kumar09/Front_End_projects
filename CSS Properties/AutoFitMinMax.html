@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Fit Min-Max</title>
+    <style>
+        .class {
+            display: grid;
+            grid-gap: 2rem;
+            /*grid-template-columns: 1fr 1fr 1fr;*/
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
+        
+        .box {
+            background-color: aqua;
+            border: 2px solid tomato;
+            padding: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="class">
+        <div class="box">This is box - 1</div>
+        <div class="box">This is box - 2</div>
+        <div class="box">This is box - 3</div>
+        <div class="box">This is box - 4</div>
+        <div class="box">This is box - 5</div>
+        <div class="box">This is box - 6</div>
+        <div class="box">This is box - 7</div>
+        <div class="box">This is box - 8</div>
+        <div class="box">This is box - 9</div>
+        <div class="box">This is box - 10</div>
+        <div class="box">This is box - 11</div>
+        <div class="box">This is box - 12</div>
+        <div class="box">This is box - 13</div>
+        <div class="box">This is box - 14</div>
+        <div class="box">This is box - 15</div>
+    </div>
+
+</body>
+
+</html>
