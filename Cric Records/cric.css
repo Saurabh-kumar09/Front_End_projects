@@ -1,0 +1,76 @@
+        .nav {
+            background-color: rgb(62, 62, 223);
+            border-radius: 15px;
+        }
+        
+        .nav li {
+            display: inline-block;
+            margin: -25px 0px;
+        }
+        
+        .nav li a {
+            padding: 34px 23px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        
+        .nav li img {
+            width: 123px;
+        }
+        
+        .nav li div {
+            color: white;
+            font-family: 'Cinzel Decorative', cursive;
+            text-align: center;
+            font-size: 17px;
+            margin: -32px -13px;
+        }
+        
+        .c3 {
+            font-family: 'Cinzel Decorative', cursive;
+            background-image: url('imgs/Untitled\ design.png');
+            background-repeat: no-repeat;
+            height: 500px;
+            width: 600px;
+            margin-left: 150px;
+            margin-top: 80px;
+            border: 2px solid blue;
+            border-radius: 40px;
+        }
+        
+        .c3 p {
+            padding-top: 310px;
+            margin-left: 100px;
+            font-size: x-large;
+        }
+        
+        .c3 h2 {
+            padding-left: 85px;
+            padding-bottom: 5px;
+        }
+        
+        #imgs {
+            width: 679px;
+            height: 367px;
+            float: right;
+            animation: cric 3s linear 0.5s infinite reverse forwards;
+            animation-fill-mode: forwards;
+            visibility: hidden;
+        }
+        
+        @keyframes cric {
+            0% {
+                transform: scale(1);
+                visibility: visible;
+            }
+            100% {
+                transform: scale(0.5);
+                visibility: visible;
+            }
+        }
+        
+        .c4 {
+            text-align: center;
+        }
